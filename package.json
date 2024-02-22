@@ -1,0 +1,12 @@
+{
+  "name": "sick-fits-store",
+  "version": "1.0.0",
+  "description": "Sick Fits store fullstack app built shadowing Wes Bos' 'Advanced React' course with differing stack choices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["node", "keystonejs", "mongodb", "graphql", "apollo", "nextjs", "react", "wesbos", "advanced-react", "course"],
+  "author": "Tristan Marsh <tristanmarsh@live.com> (https://tristanmarsh.dev/)",
+  "license": "MIT"
+}
