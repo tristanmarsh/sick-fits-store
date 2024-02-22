@@ -4,9 +4,29 @@
   "description": "Sick Fits store fullstack app built shadowing Wes Bos' 'Advanced React' course with differing stack choices",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz"
   },
-  "keywords": ["node", "keystonejs", "mongodb", "graphql", "apollo", "nextjs", "react", "wesbos", "advanced-react", "course"],
+  "keywords": [
+    "node",
+    "keystonejs",
+    "mongodb",
+    "graphql",
+    "apollo",
+    "nextjs",
+    "react",
+    "wesbos",
+    "advanced-react",
+    "course"
+  ],
   "author": "Tristan Marsh <tristanmarsh@live.com> (https://tristanmarsh.dev/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
